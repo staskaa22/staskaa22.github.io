@@ -1,0 +1,288 @@
+   body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.6em;
+    color:#241F21;
+    background-color: #F5F3EB;
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: 700;
+  }
+  h1, .h1{
+    font-size: 70px;
+    font-family: 'Inter', sans-serif;
+  }
+  h2, .h2{
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+  }
+  h3, .h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+  }
+  h4, .h4, h5, .h5, h6, .h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+  }
+  section{
+    margin-top: 200px; /*ovde za oddaleceno home od about*/
+  }
+  em {
+    font-weight: 700;
+  }
+  li{
+    font-size: 16px;
+  }
+  p.lead-paragraph {
+    font-size: 19px;
+  }
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    color:  #696969;
+    font-size: 16px;
+  }
+  a {
+    color: #241F21;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover {
+    color: #F26649;
+    text-decoration: none;
+  }
+
+  /* mid-break line  */
+
+  .mid-break{
+    color: #DAD9D4;
+    height: 1px;
+  }
+  /* navigation bar  */
+
+section.navigation {
+  max-width: fit-content;
+
+}
+ul.nav.nav-pills {
+  background: #FFFFFF;
+  display: grid;
+  border-radius: 60px;
+  width: 119px;
+  margin: 60px;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills {
+  color: #F26649;
+  background-color: transparent;
+}
+.nav-link {
+  color:  #696969;
+}
+.contact-paragraph-email
+{
+  font-size: 11px;
+}
+.contact-form
+{
+  margin-left: 200px;
+  width: 70%;
+}
+.form>h2
+{
+  margin-left: 200px;
+}
+.rectangle
+{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: justify-all;
+}
+.nav a.nav-link{
+  font-size: 34px;
+  padding: 23px 0;
+}
+.nav {
+  padding: 38px 0;
+}
+
+@media only screen and (max-width: 900px) {
+
+  section.navigation {
+    z-index: 99999;
+  }
+
+  ul.nav.text-center {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0px;
+    border-radius: 0px;
+    display: flex;
+    padding: 0px;
+    justify-content: space-evenly;
+  }
+}
+  #col-lg-10 h3
+  {
+    color: #587ad2;
+  }
+  #about h2
+  {
+    color: #F26649;
+  }
+  .logo-img {
+    display: flex;
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    border-radius:10px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* hero section  */
+#home h1>span{
+  color: sandybrown;
+}
+section.hero {
+  background-color: #241F21;
+  margin-top: 0px;
+}
+
+.container.hero-container {
+  margin: 30px 0px;
+}
+img.hero-img {
+  border: 10px solid rgba(242, 102, 73, 0.2);
+}
+section.hero h2{
+  color: #F5F3EB;
+}
+
+section.hero p, a {
+  color:#CECBC7;
+}
+
+section.hero p.copyright{
+  color: #DBD9D1;
+  margin-top: 70px;
+}
+
+.social-link{
+  padding: 0px 5px;
+}
+
+.social-link.active, .social-link.hover {
+  color: #F26649;
+  background-color: transparent;
+}
+
+#education
+{
+  text-align: center;
+  align-content: center;
+}
+section.hero.position-fixed {
+  height: 100%;
+}
+
+
+/*@media only screen and (max-width: 900px) {*/
+
+/*  section.hero dooodava mesto pred aboutt{*/
+/*    display: none;*/
+/*  }*/
+
+/* home section  */
+
+section#home {
+  padding: -500px 0px;
+}
+#home h1
+{
+  color: #4306d2;
+  margin-top: -131px;
+}
+#home img
+{
+  display: flex;
+  border-radius: 5%;
+  margin-left: 800px;
+  margin-top: -250px;
+}
+/* About Section  */
+
+.client-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.open-description{
+  color:  #696969;
+}
+/* testimonial section  */
+
+p.testimonial-location{
+  color: #F26649;
+}
+.card-body {
+  padding: 0px;
+}
+
+#contact h1
+{
+  display: flex;
+  margin-top: -146px;
+margin-left: 500px;
+}
+
+/* contact section  */
+
+.contact-list{
+  border: 1px solid #F26649;
+  border-radius: 15px;
+  width: 237px;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  padding: 0px;
+}
+
+p.contact-paragraph{
+margin: 0px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #241F21;
+}
+
+.form-control {
+  border: 1px solid transparent;
+  height: 60px;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .contact-list{
+    border: 1px solid #F26649;
+    border-radius: 15px;
+    width: 237px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding: 0px;
+
+  }
+}
+
+
